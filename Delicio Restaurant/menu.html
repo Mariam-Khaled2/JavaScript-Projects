@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delicio Resturant - Menu</title>
+    <link rel="stylesheet" href="./css/menu.css">
+        <link rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="logo">
+            <span>
+                <img src="./imgs/images-removebg-preview.png" alt="logo">
+            </span>
+            <div>
+            <h2>Delicio</h2>
+            <small>RESTAURANT</small>
+            </div>
+            </div>
+        <ul class="nav-links">
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="#" class="active">Menu</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Specials</a></li>
+            <li><a href="#">Gallery</a></li>
+            <li><a href="#">Contact Us</a></li>
+        </ul>
+
+        <div class="nav-right">
+            <div class="bag-shopping" id="cartIcon">
+                <span class="bag-icon">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    <span id="cartCount">0</span>
+                </span>
+            </div>
+        </div>
+    </nav>
+
+    <header class="menu-header">
+        <div class="header-content">
+            <p class="sub-title">OUR MENU</p>
+            <h1>Our Delicious Dishes</h1>
+            <div class="menu-line">
+                <span></span>
+                <i class="fa-solid fa-utensils"></i>
+                <span></span>
+            </div>
+            <p class="header-description">Fresh ingredients. Bold flavors. Unforgettable taste.</p>
+        </div>
+        <div class="header-image">
+            <img src="./imgs/fries&booo.jfif" alt="Delicious Burger">
+        </div>
+    </header>
+
+    <section class="filter-section">
+        <div class="filter-buttons">
+            <a href="#all" class="filter-btn" class="active">All</a>
+            <a href="#burger" class="filter-btn">Burger</a>
+            <a href="#pizza" class="filter-btn">Pizza</a>
+            <a href="#pasta" class="filter-btn">Pasta</a>
+            <a href="#salad" class="filter-btn">Salad</a>
+            <a href="#chicken" class="filter-btn">Chicken</a>
+            <a href="#dessert" class="filter-btn">Dessert</a>
+            <a href="#drink" class="filter-btn">Drink</a>
+        </div>
+    </section>
+
+
+    <section class="menu-display">
+        <div class="container">
+
+            <div class="category-section" id="burger">
+                <div class="category-title">
+                    <span class="icon">🍔</span>
+                    <h2>Burger</h2>
+                </div>
+
+                <div class="menu-grid">
+
+                    <div class="card">
+                        <img src="./imgs/images (26).jfif" alt="classic burger">
+                        <div class="card-body">
+                            <h3>Classic Burger</h3>
+                            <p>Beef patty, fresh lettuce, tomatoes<br> cheese, and special sause</p>
+                            <div class="card-footer">
+                                <span class="price">$8.99</span>
+                                <button class="add-to-cart-btn"><i class="fas fa-shopping-cart"></i>Add to Cart</button>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="card">
+                        <img src="./imgs/images.jfif" alt="BBQ Burger">
+                        <div class="card-body">
+                            <h3>BBQ Burger</h3>
+                            <p>Beef patty, meilted cheese, crispy bacon. <br> BBQ sause, onion rings.</p>
+                            <div class="card-footer">
+                                <span class="price">$10.99</span>
+                                <button class="add-to-cart-btn"><i class="fas fa-shopping-cart"></i>Add to Cart</button>
+                            </div>
+                        </div>
+                    </div>
+
+
+                        <div class="card">
+                        <img src="./imgs/images (1).jfif" alt="Mushroom Burger">
+                        <div class="card-body">
+                            <h3>Mushroom Burger</h3>
+                            <p>Beef patty, saufsed mushrooms, <br> Sause cheese, special sause.</p>
+                            <div class="card-footer">
+                                <span class="price">$10.49</span>
+                                <button class="add-to-cart-btn"><i class="fas fa-shopping-cart"></i>Add to Cart</button>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                        <div class="card">
+                        <img src="./imgs/images (2).jfif" alt="classic burger">
+                        <div class="card-body">
+                            <h3>Classic Burger</h3>
+                            <p>Beef patty, fresh lettuce, tomatoes, cheese, and special sause</p>
+                            <div class="card-footer">
+                                <span class="price">$8.99</span>
+                                <button class="add-to-cart-btn"><i class="fas fa-shopping-cart"></i>Add to Cart</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="category-section" id="pizza">
+                <div class="category-title">
+                    <span class="icon">🍕</span>
+                    <h2>Pizza</h2>
+                </div>
+
+                <div class="menu-grid">
+
+                    <div class="card">
+                        <img src="./imgs/images (3).jfif" alt="Margherita Pizza">
+                        <div class="card-body">
+                            <h3>Margherita Pizza</h3>
+                            <p>Yomato sause, mozzarella, fresh basil.</p>
+                            <div class="card-footer">
+                                <span class="price">$8.99</span>
+                                <button class="add-to-cart-btn"><i class="fas fa-shopping-cart"></i>Add to Cart</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <img src="./imgs/images (4).jfif" alt="Pepperoni Pizza">
+                        <div class="card-body">
+                            <h3>Pepperoni Pizza</h3>
+                            <p>Tomato sause, mozzarella, pepperoni.</p>
+                            <div class="card-footer">
+                                <span class="price">$10.99</span>
+                                <button class="add-to-cart-btn"><i class="fas fa-shopping-cart"></i>Add to Cart</button>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="card">
+                        <img src="./imgs/images (5).jfif" alt="Meat Lovers Pizza">
+                        <div class="card-body">
+                            <h3>Meat Lovers Pizza</h3>
+                            <p>Beef, sausage, pepperoni, bacon.</p>
+                            <div class="card-footer">
+                                <span class="price">$12.99</span>
+                                <button class="add-to-cart-btn"><i class="fas fa-shopping-cart"></i>Add to Cart</button>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="card">
+                        <img src="./imgs/images (6).jfif" alt="Vegetarian Pizza">
+                        <div class="card-body">
+                            <h3>Vegetarian Pizza</h3>
+                            <p>Bell peppers, olives, mushrooms, onion.</p>
+                            <div class="card-footer">
+                                <span class="price">$10.49</span>
+                                <button class="add-to-cart-btn"><i class="fas fa-shopping-cart"></i>Add to Cart</button>
+                            </div>
+                        </div>
+                    </div>                  
+                </div>
+            </div>
+
+            <div class="category-section" id="pasta">
+                <div class="category-title">
+                    <span class="icon">🍜</span>
+                        <h2>Pasta</h2>
+                </div>
+
+                <div class="menu-grid">
+
+                    <div class="card">
+                        <img src="./imgs/images (7).jfif" alt="Spaghetti Bolognese">
+                        <div class="card-body">
+                            <h3>Spaghetti Bolognese</h3>
+                            <p>Classic meat sauce with parmegan.</p>
+                            <div class="card-footer">
+                                <span class="price">$9.99</span>
+                                <button class="add-to-cart-btn"><i class="fas fa-shopping-cart"></i>Add to Cart</button>
+                            </div>
+                        </div>
+                    </div>                  
+
+                        <div class="card">
+                        <img src="./imgs/images (9).jfif" alt="Fettuccine Alfredo">
+                        <div class="card-body">
+                            <h3>Fettuccine Alfredo</h3>
+                            <p>Creamy sauce with parmesan.</p>
+                            <div class="card-footer">
+                                <span class="price">$9.49</span>
+                                <button class="add-to-cart-btn"><i class="fas fa-shopping-cart"></i>Add to Cart</button>
+                            </div>
+                        </div>
+                    </div>                  
+
+                        <div class="card">
+                        <img src="./imgs/images (10).jfif" alt="Penne Arrabbiata">
+                        <div class="card-body">
+                            <h3>Penne Arrabbiata</h3>
+                            <p>Spicy tomato sauce, garlic, basil.</p>
+                            <div class="card-footer">
+                                <span class="price">$8.99</span>
+                                <button class="add-to-cart-btn"><i class="fas fa-shopping-cart"></i>Add to Cart</button>
+                            </div>
+                        </div>
+                    </div>                  
+
+                        <div class="card">
+                        <img src="./imgs/images (11).jfif" alt="Pesto Pasta">
+                        <div class="card-body">
+                            <h3>Pesto Pasta</h3>
+                            <p>Bauln pasta, pine nuts, permesan.</p>
+                            <div class="card-footer">
+                                <span class="price">$9.99</span>
+                                <button class="add-to-cart-btn"><i class="fas fa-shopping-cart"></i>Add to Cart</button>
+                            </div>
+                        </div>
+                    </div>                  
+                </div>
+            </div>
+
+
+                        <div class="category-section" id="salad">
+                <div class="category-title">
+                    <span class="icon">🥗</span>
+                        <h2>Salad</h2>
+                </div>
+
+                <div class="menu-grid">
+                 
+                        <div class="card">
+                        <img src="./imgs/images (12).jfif" alt="Caesar Salad">
+                        <div class="card-body">
+                            <h3>Caesar Salad</h3>
+                            <p>Rossted, parmesan, caeser dressing.</p>
+                            <div class="card-footer">
+                                <span class="price">$6.99</span>
+                                <button class="add-to-cart-btn"><i class="fas fa-shopping-cart"></i>Add to Cart</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    
+                        <div class="card">
+                        <img src="./imgs/images (15).jfif" alt="Greek Salad">
+                        <div class="card-body">
+                            <h3>Greek Salad</h3>
+                            <p>Fats, olives, cucomber, tomato, onion.</p>
+                            <div class="card-footer">
+                                <span class="price">$6.49</span>
+                                <button class="add-to-cart-btn"><i class="fas fa-shopping-cart"></i>Add to Cart</button>
+                            </div>
+                        </div>
+                    </div>
+
+
+                        <div class="card">
+                        <img src="./imgs/images (14).jfif" alt="Chicken Caesear Salad">
+                        <div class="card-body">
+                            <h3>Chicken Caesear Salad</h3>
+                            <p>Grilled checkin, romani, parmesan.</p>
+                            <div class="card-footer">
+                                <span class="price">$7.99</span>
+                                <button class="add-to-cart-btn"><i class="fas fa-shopping-cart"></i>Add to Cart</button>
+                            </div>
+                        </div>
+                    </div>
+
+
+                        <div class="card">
+                        <img src="./imgs/images (13).jfif" alt="Fresh Garden Salad">
+                        <div class="card-body">
+                            <h3>Fresh Garden Salad</h3>
+                            <p>Seasonal greens, fresh vegetarbles.</p>
+                            <div class="card-footer">
+                                <span class="price">$5.99</span>
+                                <button class="add-to-cart-btn"><i class="fas fa-shopping-cart"></i>Add to Cart</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="category-section" id="chicken">
+                <div class="category-title">
+                    <span class="icon">🍗</span>
+                        <h2>Chicken</h2>
+                </div>
+
+                <div class="menu-grid">
+
+                        <div class="card">
+                        <img src="./imgs/images (16).jfif" alt="Grilled Chicken">
+                        <div class="card-body">
+                            <h3>Grilled Chicken</h3>
+                            <p>Herbet, lemon, grilled to perfection.</p>
+                            <div class="card-footer">
+                                <span class="price">$10.99</span>
+                                <button class="add-to-cart-btn"><i class="fas fa-shopping-cart"></i>Add to Cart</button>
+                            </div>
+                        </div>
+                    </div>
+
+
+                        <div class="card">
+                        <img src="./imgs/images (17).jfif" alt="Chicken Alfredo">
+                        <div class="card-body">
+                            <h3>Chicken Alfredo</h3>
+                            <p>Grilled chiken, creamy sause.</p>
+                            <div class="card-footer">
+                                <span class="price">$11.99</span>
+                                <button class="add-to-cart-btn"><i class="fas fa-shopping-cart"></i>Add to Cart</button>
+                            </div>
+                        </div>
+                    </div>
+
+
+                        <div class="card">
+                        <img src="./imgs/images (18).jfif" alt="Spicy Chicken Wings">
+                        <div class="card-body">
+                            <h3>Spicy Chicken Wings</h3>
+                            <p>Crispy wings with spicy sauce</p>
+                            <div class="card-footer">
+                                <span class="price">$9.99</span>
+                                <button class="add-to-cart-btn"><i class="fas fa-shopping-cart"></i>Add to Cart</button>
+                            </div>
+                        </div>
+                    </div>
+
+
+                        <div class="card">
+                        <img src="./imgs/images (19).jfif" alt="Chicken Tenders">
+                        <div class="card-body">
+                            <h3>Chicken Tenders</h3>
+                            <p>Crespy tendery with honey mustard.</p>
+                            <div class="card-footer">
+                                <span class="price">$8.99</span>
+                                <button class="add-to-cart-btn"><i class="fas fa-shopping-cart"></i>Add to Cart</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="category-section" id="dessert">
+                <div class="category-title">
+                    <span class="icon">🍰</span>
+                        <h2>Dessert</h2>
+                </div>
+
+                <div class="menu-grid">
+
+                        <div class="card">
+                        <img src="./imgs/images (20).jfif" alt="Chochlete Lave Cake">
+                        <div class="card-body">
+                            <h3>Chochlete Lave Cake</h3>
+                            <p>Warm choclate cake with nuttela.</p>
+                            <div class="card-footer">
+                                <span class="price">$6.99</span>
+                                <button class="add-to-cart-btn"><i class="fas fa-shopping-cart"></i>Add to Cart</button>
+                            </div>
+                        </div>
+                    </div>
+
+
+                        <div class="card">
+                        <img src="./imgs/images (21).jfif" alt="New York Cheesecake">
+                        <div class="card-body">
+                            <h3>New York Cheesecake</h3>
+                            <p>Rich cheesecake with berry sause.</p>
+                            <div class="card-footer">
+                                <span class="price">$6.49</span>
+                                <button class="add-to-cart-btn"><i class="fas fa-shopping-cart"></i>Add to Cart</button>
+                            </div>
+                        </div>
+                    </div>
+
+
+                        <div class="card">
+                        <img src="./imgs/images (22).jfif" alt="Tiramisu">
+                        <div class="card-body">
+                            <h3>Tiramisu</h3>
+                            <p>Classic, dessert.</p>
+                            <div class="card-footer">
+                                <span class="price">$11.99</span>
+                                <button class="add-to-cart-btn"><i class="fas fa-shopping-cart"></i>Add to Cart</button>
+                            </div>
+                        </div>
+                    </div>
+
+
+                        <div class="card">
+                        <img src="./imgs/images (23).jfif" alt="Ice Cream">
+                        <div class="card-body">
+                            <h3>Ice Cream</h3>
+                            <p>Vanilla, chocolate, or strawbarry.</p>
+                            <div class="card-footer">
+                                <span class="price">$4.99</span>
+                                <button class="add-to-cart-btn"><i class="fas fa-shopping-cart"></i>Add to Cart</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                
+                <div class="category-section" id="drink">
+                <div class="category-title">
+                    <span class="icon">☕</span>
+                        <h2>Drink</h2>
+                </div>
+
+                <div class="menu-grid">
+
+
+                        <div class="card">
+                        <img src="./imgs/images (24).jfif" alt="Fresh Orange Juice">
+                        <div class="card-body">
+                            <h3>Fresh Orange Juice</h3>
+                            <p>Natural, so tasty.</p>
+                            <div class="card-footer">
+                                <span class="price">$3.49</span>
+                                <button class="add-to-cart-btn"><i class="fas fa-shopping-cart"></i>Add to Cart</button>
+                            </div>
+                        </div>
+                    </div>
+
+
+                        <div class="card">
+                        <img src="./imgs/images (25).jfif" alt="Iced Coffee">
+                        <div class="card-body">
+                            <h3>Iced Coffee</h3>
+                            <p></p>
+                            <div class="card-footer">
+                                <span class="price">$5.49</span>
+                                <button class="add-to-cart-btn"><i class="fas fa-shopping-cart"></i>Add to Cart</button>
+                            </div>
+                        </div>
+                    </div>
+
+
+                        <div class="card">
+                        <img src="./imgs/images (27).jfif" alt="Milkshake">
+                        <div class="card-body">
+                            <h3>Milkshake</h3>
+                            <p>vanilla, choclate taste.</p>
+                            <div class="card-footer">
+                                <span class="price">$2.49</span>
+                                <button class="add-to-cart-btn"><i class="fas fa-shopping-cart"></i>Add to Cart</button>
+                            </div>
+                        </div>
+                    </div>
+
+
+                        <div class="card">
+                        <img src="./imgs/images (28).jfif" alt="Soft Drinks">
+                        <div class="card-body">
+                            <h3>Soft Drinks</h3>
+                            <p>fanta or pepsi or cocacola</p>
+                            <div class="card-footer">
+                                <span class="price">$2.49</span>
+                                <button class="add-to-cart-btn"><i class="fas fa-shopping-cart"></i>Add to Cart</button>
+                            </div>
+                        </div>
+                    </div>
+               </div>
+
+
+               
+             </div>
+    </section>
+
+<div class="cart-overlay" id="cartOverlay"></div>
+
+<div class="cart-sidebar" id="cartSidebar">
+    <div class="cart-header">
+        <h3>Shopping Cart</h3>
+        <button id="closeCartBtn" class="close-btn">&times;</button>
+    </div>
+    <div class="cart-items" id="cartItems">
+
+    </div>
+    <div class="cart-footer">
+        <div class="cart-total">
+            <span>Total:</span>
+            <span id="cartTotalPrice">$0.00</span>
+        </div>
+        <button class="checkout-btn">Check</button>
+    </div>
+</div>
+
+<script src="./menu.js"></script>
+</body>
+</html>
