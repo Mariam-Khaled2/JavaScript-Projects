@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Makeup Bellavie</title>
+    <link rel="stylesheet" href="./css/makeup.css">
+            <link rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body>
+    <header class="header">
+        <div class="logo">
+            <img src="./imgs/images-removebg-preview.png" alt="Bellavie logo">
+            <div class="logo-text">
+                       <h2>Bellavie</h2>
+                    <small>Beauty in Every You</small>
+            </div>
+        </div>
+            <ul class="nav-links">
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="#">Shop</a></li>
+            <li><a href="./makeup.html" class="active">Makeup</a></li>
+            <li><a href="./skincare.html">Skincare</a></li>
+            <li><a href="./fragrance.html">Fragrance</a></li>
+            <li><a href="./accessories.html">Accessories</a></li>
+            <li><a href="./gift-sets.html">Gift Sets</a></li>
+            <li><a href="#">About Us</a></li>         
+        </ul>
+
+    <div class="nav-icons">
+        <a href="#" class="favorite-icon"><i class="fa-regular fa-heart"></i> <span id="favorite-count">0</span></a>
+        <a href="#" id="search-toggle" aria-label="Search products">
+            <i class="fa-solid fa-magnifying-glass"></i>
+        </a>
+        <a href="#" class="cart-icon" id="cart-toggle" aria-label="Shopping cart">
+            <i class="fa-solid fa-bag-shopping"></i>
+            <span id="cart-count">0</span>
+        </a>
+    </div>
+    </header>
+
+    <div class="search-panel" id="search-panel" hidden>
+        <input
+            type="search"
+            id="product-search"
+            placeholder="Search makeup products..."
+            aria-label="Search makeup products"
+        >
+    </div>
+
+    <section class="hero">
+    <div class="hero-content">
+        <h1>Makeup</h1>
+        <p>Enhance your natural beauty with our <br> premium makeup collection.</p>
+    </div>
+</section>
+
+
+<section class="features">
+    <div class="feature">
+        <div class="features-icon">
+            <i class="fa-regular fa-truck"></i>
+        </div>
+        <div>
+            <h3>Free Shipping</h3>
+            <p>On orders over $50</p>
+        </div>
+    </div>
+    
+
+        <div class="feature">
+        <div class="features-icon">
+            <i class="fa-solid fa-shield"></i>
+        </div>
+        <div>
+            <h3>Secure Payment</h3>
+            <p>100% secure checkout</p>
+        </div>
+    </div>
+
+
+        <div class="feature">
+        <div class="features-icon">
+            <i class="fa-solid fa-arrow-rotate-left"></i>
+        </div>
+        <div>
+            <h3>Easy Returns</h3>
+            <p>Within 14 days</p>
+        </div>
+    </div>
+
+
+        <div class="feature">
+        <div class="features-icon">
+            <i class="fa-solid fa-headset"></i>
+        </div>
+        <div>
+            <h3>24/7 Support</h3>
+            <p>We are here to help</p>
+        </div>
+    </div>
+
+</section>
+
+<section class="makeup-heading">
+    <p>DISCOVER YOUR BEAUTY</p>
+    <h1>Makeup Collection</h1>
+    <span>Discover your favorite beauty essentials</span>
+</section>
+
+<section class="makeup-categories">
+    <a href="#" class="active" data-filter="all">All Makeup</a>
+    <a href="#" data-filter="face">Face Makeup</a>
+    <a href="#" data-filter="eye">Eye Makeup</a>
+    <a href="#" data-filter="lip">Lip Makeup</a>
+    <a href="#" data-filter="tool">Makeup Tools</a>
+</section>
+
+<section class="makeup-products1">
+
+    <div class="makeup-product" data-category="face">
+        <i class="product-heart fa-regular fa-heart" data-product="foundation"></i>
+        <img src="./imgs/11-removebg-preview.png" alt="Foundation">
+        <span class="product-badge">NEW</span>
+        <h3>Maybelline Fit Me Foundation</h3>
+        <div class="product-rating">
+            <small>(124) ⭐⭐⭐⭐⭐</small>
+        </div>
+        <p class="product-price">$12.99</p>
+        <button>Add to Cart</button>
+    </div>
+
+        <div class="makeup-product" data-category="face">
+        <i class="product-heart fa-regular fa-heart" data-product="blush-1"></i>
+        <img src="./imgs/images__13_-removebg-preview.png" alt="Blush">
+        <span class="product-badge">NEW</span>
+        <h3>LOreal True Match Blush</h3>
+        <div class="product-rating">
+            <small>(98) ⭐⭐⭐⭐⭐</small>
+        </div>
+        <p class="product-price">$10.99</p>
+        <button>Add to Cart</button>
+    </div>
+
+        <div class="makeup-product" data-category="eye">
+        <i class="product-heart fa-regular fa-heart" data-product="eyeshadow"></i>
+        <img src="./imgs/images__14_-removebg-preview.png" alt="Eyeshadow">
+        <span class="product-badge">NEW</span>
+        <h3>NYX Ultimate Shadow Palette</h3>
+        <div class="product-rating">
+            <small>(76) ⭐⭐⭐⭐⭐</small>
+        </div>
+        <p class="product-price">$16.99</p>
+        <button>Add to Cart</button>
+    </div>
+
+        <div class="makeup-product" data-category="lip">
+        <i class="product-heart fa-regular fa-heart" data-product="lipstick-1"></i>
+        <img src="./imgs/images__15_-removebg-preview.png" alt="Lipstick">
+        <span class="product-badge">NEW</span>
+        <h3>Maybelline SuperStay Matte Ink</h3>
+        <div class="product-rating">
+            <small>(142) ⭐⭐⭐⭐⭐</small>
+        </div>
+        <p class="product-price">$11.99</p>
+        <button>Add to Cart</button>
+    </div>
+
+</section>
+
+<section class="makeup-products2">
+
+        <div class="makeup-product" data-category="eye">
+        <i class="product-heart fa-regular fa-heart" data-product="mascara-1"></i>
+        <img src="./imgs/images__16_-removebg-preview.png" alt="Mascara">
+        <span class="product-badge">NEW</span>
+        <h3>LOreal Lash Paradise Mascara</h3>
+        <div class="product-rating">
+            <small>(118) ⭐⭐⭐⭐⭐</small>
+        </div>
+        <p class="product-price">$13.99</p>
+        <button>Add to Cart</button>
+    </div>
+
+        <div class="makeup-product" data-category="lip">
+        <i class="product-heart fa-regular fa-heart" data-product="lipstick-2"></i>
+        <img src="./imgs/powder-kiss-lipstick-mac-241066-removebg-preview.png" alt="Lipstick">
+        <span class="product-badge">NEW</span>
+        <h3>MAC Matte Lipstick</h3>
+        <div class="product-rating">
+            <small>(89) ⭐⭐⭐⭐⭐</small>
+        </div>
+        <p class="product-price">$18.99</p>
+        <button>Add to Cart</button>
+    </div>
+
+        <div class="makeup-product" data-category="tool">
+        <i class="product-heart fa-regular fa-heart" data-product="brush-set"></i>
+        <img src="./imgs/shopping-removebg-preview.png" alt="Brush Set">
+        <span class="product-badge">NEW</span>
+        <h3>Makeup Brush Set</h3>
+        <div class="product-rating">
+            <small>(64) ⭐⭐⭐⭐⭐</small>
+        </div>
+        <p class="product-price">$14.99</p>
+        <button>Add to Cart</button>
+    </div>
+
+        <div class="makeup-product" data-category="face">
+        <i class="product-heart fa-regular fa-heart" data-product="consealer"></i>
+        <img src="./imgs/images__17_-removebg-preview.png" alt="Consealer">
+        <span class="product-badge">NEW</span>
+        <h3>Maybelline Instant Age Rewind</h3>
+        <div class="product-rating">
+            <small>(101) ⭐⭐⭐⭐⭐</small>
+        </div>
+        <p class="product-price">$14.99</p>
+        <button>Add to Cart</button>
+    </div>
+</section>
+
+<section class="makeup-products3">
+
+        <div class="makeup-product" data-category="face">
+        <i class="product-heart fa-regular fa-heart" data-product="powder"></i>
+        <img src="./imgs/images__18_-removebg-preview.png" alt="Powder">
+        <span class="product-badge">NEW</span>
+        <h3>LOreal Infallible Setting Powder</h3>
+        <div class="product-rating">
+            <small>(83) ⭐⭐⭐⭐⭐</small>
+        </div>
+        <p class="product-price">$12.99</p>
+        <button>Add to Cart</button>
+    </div>
+
+            <div class="makeup-product" data-category="eye">
+        <i class="product-heart fa-regular fa-heart" data-product="eyeliner"></i>
+        <img src="./imgs/images__19_-removebg-preview.png" alt="Eyeliner">
+        <span class="product-badge">NEW</span>
+        <h3>NYX Epic Ink Liner</h3>
+        <div class="product-rating">
+            <small>(72) ⭐⭐⭐⭐⭐</small>
+        </div>
+        <p class="product-price">$10.99</p>
+        <button>Add to Cart</button>
+    </div>
+
+            <div class="makeup-product" data-category="lip">
+        <i class="product-heart fa-regular fa-heart" data-product="lip-gloss"></i>
+        <img src="./imgs/shopping__1_-removebg-preview.png" alt="Lip Gloss">
+        <span class="product-badge">NEW</span>
+        <h3>Tarte Maracuja Juicy Lip</h3>
+        <div class="product-rating">
+            <small>(56) ⭐⭐⭐⭐⭐</small>
+        </div>
+        <p class="product-price">$14.99</p>
+        <button>Add to Cart</button>
+    </div>
+
+            <div class="makeup-product" data-category="face">
+        <i class="product-heart fa-regular fa-heart" data-product="highlighter"></i>
+        <img src="./imgs/images__20_-removebg-preview.png" alt="Highlighter">
+        <span class="product-badge">NEW</span>
+        <h3>Revlon Skin Lights Highlight</h3>
+        <div class="product-rating">
+            <small>(41) ⭐⭐⭐⭐⭐</small>
+        </div>
+        <p class="product-price">$12.99</p>
+        <button>Add to Cart</button>
+    </div>
+
+
+</section>
+
+<script src="./makeup.js"></script>
+</body>
+</html>
