@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bellavie Store</title>
+    <link rel="stylesheet" href="./css/style.css">
+        <link rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body>
+        <nav class="navbar">
+            <div class="logo">
+                <img src="./imgs/images-removebg-preview.png" alt="Bellavie logo">
+                <div class="logo-text">
+                    <h2>Bellavie</h2>
+                    <small>Beauty in Every You</small>
+                </div>
+            </div>
+
+        <ul class="nav-links">
+            <li><a href="#" class="active">Home</a></li>
+            <li><a href="#shop">Shop</a></li>
+            <li><a href="./makeup.html">Makeup</a></li>
+            <li><a href="./skincare.html">Skincare</a></li>
+            <li><a href="./fragrance.html">Fragrance</a></li>
+            <li><a href="./accessories.html">Accessories</a></li>
+            <li><a href="./gift-sets.html">Gift Sets</a></li>
+            <li><a href="#about-us">About Us</a></li>         
+        </ul>
+
+    <div class="nav-icons">
+        <a href="#" class="favorite-icon" aria-label="Favorites">
+            <i class="fa-regular fa-heart"></i><span id="favorite-count">0</span>
+        </a>
+        <a href="#" id="search-toggle" aria-label="Search products">
+            <i class="fa-solid fa-magnifying-glass"></i>
+        </a>
+        <a href="#" class="cart-icon" id="cart-toggle" aria-label="Shopping cart">
+            <i class="fa-solid fa-bag-shopping"></i><span id="cart-count">0</span>
+        </a>
+    </div></nav>
+<div class="search-panel" id="search-panel" hidden>
+    <input type="search" id="product-search" placeholder="Search products..." aria-label="Search products">
+</div>
+
+
+<section class="hero">
+    <div class="hero-content">
+        <h1>Your Beauty <br> Our Passion</h1>
+        <p>Discover the best makeup, skincare and beauty <br> essentials | all in one place.</p>
+        <a href="#" class="hero-btn">Shop Now <i class="fa-solid fa-arrow-right"></i></a>
+    </div>
+</section>
+
+<section class="categories" id="shop">
+        <div class="section-heading">
+        <p>EXPLORE</p>
+        <h2>Shop By Category</h2>
+        </div>
+
+    <div class="category-container">
+        <a href="./makeup.html" class="category-card">
+            <img src="./imgs/powder-kiss-lipstick-mac-241066-removebg-preview.png" alt="product 1">
+            <h3>Makeup</h3>
+        </a>
+        <a href="./skincare.html" class="category-card">
+            <img src="./imgs/images__1_-removebg-preview.png" alt="product 2">
+            <h3>Skincare</h3>
+        </a>
+        <a href="./fragrance.html" class="category-card">
+            <img src="./imgs/images__2_-removebg-preview.png" alt="product 3">
+            <h3>Fragrance</h3>
+        </a>
+        <a href="./skincare.html" class="category-card">
+           <img src="./imgs/images__3_-removebg-preview.png" alt="product 3">
+           <h3>Hair Care</h3>
+        </a>
+        <a href="./skincare.html" class="category-card">
+            <img src="./imgs/images__4_-removebg-preview.png" alt="product 4">
+            <h3>Body Care</h3>
+        </a>
+        <a href="./accessories.html" class="category-card">
+            <img src="./imgs/images__5_-removebg-preview.png" alt="product 5">
+            <h3>Accessories</h3>
+        </a>
+        <a href="./gift-sets.html" class="category-card">
+            <img src="./imgs/images__6_-removebg-preview.png" alt="product 6">
+            <h3>Gift Sets</h3>
+       </a>
+
+    </div>
+</section>
+
+
+<section class="featured-products">
+    <div class="section-heading">
+        <p>OUR PICKS</p>
+        <h2>Featured Products</h2>
+    </div>
+    
+    <div class="product-container">
+
+        <div class="product-card">
+            <i class="fa-regular fa-heart product-heart"></i>
+            <img src="./imgs/download-removebg-preview.png" alt="product">
+            <h3>NYX Butter Gloss</h3>
+            <div class="rating">
+                <span>(124) ⭐⭐⭐⭐⭐</span>
+            </div>
+            <p class="price" style="margin-top: 15px;">$8.99</p>
+            <button style="margin-top: 9px;">Add to Cart</button>
+        </div>
+
+                <div class="product-card">
+            <i class="fa-regular fa-heart product-heart"></i>
+            <img src="./imgs/images__7_-removebg-preview.png" alt="product">
+            <h3>The Ordinary Moisturizer</h3>
+            <div class="rating">
+                <span>(89) ⭐⭐⭐⭐⭐</span>
+            </div>
+            <p class="price">$12.99</p>
+            <button>Add to Cart</button>
+        </div>
+
+
+                <div class="product-card">
+            <i class="fa-regular fa-heart product-heart"></i>
+            <img src="./imgs/images__8_-removebg-preview.png" alt="product">
+            <h3>Victoria is Secret Bombshell</h3>
+            <div class="rating">
+                <span>(203) ⭐⭐⭐⭐⭐</span>
+            </div>
+            <p class="price">$49.99</p>
+            <button>Add to Cart</button>
+        </div>
+
+
+                <div class="product-card">
+            <i class="fa-regular fa-heart product-heart"></i>
+            <img src="./imgs/images__9_-removebg-preview.png" alt="product">
+            <h3>Huda Beauty Eyeshadow Palette</h3>
+            <div class="rating">
+                <span>(176) ⭐⭐⭐⭐⭐</span>
+            </div>
+            <p class="price">$56.99</p>
+            <button>Add tp Cart</button>
+        </div>
+
+
+                <div class="product-card">
+            <i class="fa-regular fa-heart product-heart"></i>
+            <img src="./imgs/images__10_-removebg-preview.png" alt="product">
+            <h3>Real Techniques Brush Set</h3>
+            <div class="rating">
+                <span>(92) ⭐⭐⭐⭐⭐</span>
+            </div>
+            <p class="price">$29.99</p>
+            <button>Add to Cart</button>
+        </div>
+    </div>
+</section>
+
+<section class="promo-section">
+    <div class="promo-card">
+        <img src="./imgs/images (11).jfif" alt="skincare">
+        <div class="promo-content">
+            <h2>Skincare <br> Essentials</h2>
+            <p>Healthy skin, Happy you!</p>
+            <a href="./skincare.html">Shop Skincare <i class="fa-solid fa-arrow-right"></i></a>
+        </div>
+    </div>
+
+
+        <div class="promo-card">
+        <img src="./imgs/Rose-Gold-Makeup-Pink.jpg" alt="makeup">
+        <div class="promo-content">
+            <h2>Makeup <br> Must-Haves</h2>
+            <p>Becaise you deserve the best!</p>
+            <a href="./makeup.html">Shop Makeup <i class="fa-solid fa-arrow-right"></i></a>
+        </div>
+    </div>
+</section>
+
+<section class="features" id="about-us">
+    <div class="feature">
+        <div class="features-icon">
+            <i class="fa-regular fa-truck"></i>
+        </div>
+        <div>
+            <h3>Free Shipping</h3>
+            <p>On orders over $50</p>
+        </div>
+    </div>
+    
+
+        <div class="feature">
+        <div class="features-icon">
+            <i class="fa-solid fa-shield"></i>
+        </div>
+        <div>
+            <h3>Secure Payment</h3>
+            <p>100% secure checkout</p>
+        </div>
+    </div>
+
+
+        <div class="feature">
+        <div class="features-icon">
+            <i class="fa-solid fa-arrow-rotate-left"></i>
+        </div>
+        <div>
+            <h3>Easy Returns</h3>
+            <p>Within 14 days</p>
+        </div>
+    </div>
+
+
+        <div class="feature">
+        <div class="features-icon">
+            <i class="fa-solid fa-headset"></i>
+        </div>
+        <div>
+            <h3>24/7 Support</h3>
+            <p>We are here to help</p>
+        </div>
+    </div>
+
+</section>
+
+
+<section class="newsletter">
+    <div class="newsletter-icon">
+        <i class="fa-regular fa-envelope"></i>
+    </div>
+    <h2>Join To Our Beauty Community</h2>
+    <p>Be the first to know about new arrives, exclusive offers and beauty tips.</p>
+    <div class="subscribe-box">
+        <input type="email" placeholder="Enter your email address" id="emailInput">
+        <button id="subscribeBtn">Subscribe</button>
+    </div>
+</section>
+
+<div class="popup" id="successPopup">
+    <div class="popup-content">
+        <h2>Thank You!</h2>
+        <p>Your email has been sent successfully <br> Thank you for subscribing to our community!</p>
+        <button id="closePopup">Close</button>
+    </div>
+</div>
+
+
+<footer class="footer">
+    <div class="footer-container">
+        <div class="footer-brand">
+                        <div class="logo">
+                <img src="./imgs/images-removebg-preview.png" alt="Bellavie logo">
+                <div class="logo-text">
+                    <h2>Bellavie</h2>
+                    <small>BeautyinEverywhere</small>
+                </div>
+            </div>
+            <div class="paragraph">
+            <p>Makeuo * Skincare * Fragrance * Accessories</p>
+            </div>
+            <div class="social-icons">
+                <a><i class="fa-brands fa-instagram"></i></a>
+                <a><i class="fa-brands fa-facebook"></i></a>
+                <a><i class="fa-brands fa-tiktok"></i></a>
+                <a><i class="fa-brands fa-x-twitter"></i></a>
+                <a><i class="fa-brands fa-youtube"></i></a>
+            </div>
+        </div>
+
+        <div class="footer-column">
+            <h3>Quick Links</h3>
+            <a href="./index.html">Home</a>
+            <a href="#shop">shop</a>
+            <a href="./makeup.html">Makeup</a>
+            <a href="./skincare.html">Skincare</a>
+            <a href="./fragrance.html">Fragrance</a>
+            <a href="./accessories.html">Accessories</a>
+            <a href="./gift-sets.html">Gift Sets</a>
+        </div>
+
+            <div class="footer-column">
+            <h3>Our Products</h3>
+            <a href="./makeup.html">Makeup</a>
+            <a href="./skincare.html">Skincare</a>
+            <a href="./fragrance.html">Fragrance</a>
+            <a href="./accessories.html">Accessorise</a>
+            <a href="./gift-sets.html">Gift Sets</a>
+        </div>
+
+
+            <div class="footer-column">
+            <h3>Information</h3>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms & Condions</a>
+            <a href="#">Refund Policy</a>
+            <a href="#">FAQs</a>
+        </div>
+
+
+        <div class="footer-column contact">
+           <h3>Contact Us</h3>
+           <p><i class="fa-solid fa-phone"></i>+1 234 567 8910</p>
+           <p><i class="fa-solid-fa-envelope"></i>info@bellavie.com</p>
+           <p><i class="fa-solid fa-location-dot"></i>123 Streat</p>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <p>@ 2026 Bellavie Shop, All Right Reserved</p>
+    </div>
+  </footer>
+
+
+
+
+
+
+
+    <script src="./main.js"></script>
+</body>
+</html>
+
